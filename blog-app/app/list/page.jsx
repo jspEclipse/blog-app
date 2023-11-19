@@ -4,10 +4,10 @@ import Link from "next/link"
 export default function ListPage() {
   return (
     <div>
-      {POSTS.map((p) => (
+      {POSTS.map((p, key) => (
         <div className="m-5">
-            <Link href={`/view/${p.id}`}>
-                <Post post={p} key={p.id}/>
+            <Link href={`/view/${key}`}>
+                <Post post={p} key={key}/>
             </Link>
             <hr/>
         </div>
