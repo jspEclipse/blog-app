@@ -3,8 +3,8 @@ export default function LoginPage() {
         <div>
             <h1>Login</h1>
             <div>
-                <span>Username: <input type="text"></input></span>
-                <span>Password: <input type="password"></input></span>
+                <div>Username: <input type="text"></input></div>
+                <div>Password: <input type="password"></input></div>
             </div>
         </div>
     )
